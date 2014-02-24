@@ -70,6 +70,29 @@
       "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f26f59c_268fd662",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-02-24T14:38:11Z",
+      "side": 1,
+      "message": "One important test is missing:\n\nfrom 2.9 on it is possible to disable DRAFT workflow in gerrit.config. This should be checked here.",
+      "range": {
+        "startLine": 223,
+        "startChar": 2,
+        "endLine": 223,
+        "endChar": 19
+      },
+      "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
