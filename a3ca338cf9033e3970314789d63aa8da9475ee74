@@ -46,6 +46,30 @@
       "revId": "a3ca338cf9033e3970314789d63aa8da9475ee74",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4f3169d0_0792d68d",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2014-02-24T14:30:20Z",
+      "side": 1,
+      "message": "Ok, normally we are only assigning the Owner access right on plugin projects and then leave it to the project owner to add force push if they need it. But of course we can just leave it like this and the project owner can later remove force push if it is not wanted :)",
+      "parentUuid": "8f37e1c2_692365b9",
+      "range": {
+        "startLine": 8,
+        "startChar": 8,
+        "endLine": 8,
+        "endChar": 14
+      },
+      "revId": "a3ca338cf9033e3970314789d63aa8da9475ee74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
