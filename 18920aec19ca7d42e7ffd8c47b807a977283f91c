@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f3169d0_47268eca",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-02-24T10:28:13Z",
+      "side": 1,
+      "message": "If we want to expose this functionality also per UiAction and REST endpoint, may be it makes sense to create a plugin owned capability, and protect the exposed handlers with it? Custom capability check always succeeds for Gerrit administrators.",
+      "range": {
+        "startLine": 31,
+        "startChar": 28,
+        "endLine": 31,
+        "endChar": 64
+      },
+      "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
