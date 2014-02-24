@@ -46,6 +46,30 @@
       "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cf439932_eb3671fd",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-02-24T13:19:18Z",
+      "side": 1,
+      "message": "I agree; it would be better to do this in a follow-up change if it is needed.",
+      "parentUuid": "2f26f59c_462692ca",
+      "range": {
+        "startLine": 31,
+        "startChar": 28,
+        "endLine": 31,
+        "endChar": 64
+      },
+      "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
