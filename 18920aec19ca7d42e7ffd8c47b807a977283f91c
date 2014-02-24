@@ -22,6 +22,30 @@
       "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f26f59c_462692ca",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2014-02-24T11:29:05Z",
+      "side": 1,
+      "message": "That is a good suggestion for future development. At the moment the administrative capability covers all our needs and we are not prepared to spend aditional time on implementing functionality that might never be used.\nHowever anyone who feels that exposing this functionality, as UIAction and/or REST endpoint, is just what the doctor orders are more than welcome to implement it.",
+      "parentUuid": "4f3169d0_47268eca",
+      "range": {
+        "startLine": 31,
+        "startChar": 28,
+        "endLine": 31,
+        "endChar": 64
+      },
+      "revId": "18920aec19ca7d42e7ffd8c47b807a977283f91c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
