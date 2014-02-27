@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "2f26f59c_a6fca657",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2014-02-27T13:56:58Z",
+      "side": 1,
+      "message": "The visibility and ability to delete refs were the two requirements for this plugin. So I can not see the problem with this being the only thing separating the functionality of this plugin and the WIP workflow introduced in these two changes.\nOne important,further, difference is that you have to be an administrator to use force-draft. It is not meant to be used as part of the development process. It\u0027s primary goal is to enable administrators to give users the opportunity to delete a change if the administrators find that it is a valid option, as stated in the commit message:\n\"Git-administrators sometimes needs to set PatchSets as draft, to\nenable users to remove PatchSets, for legal or other reasons.\"\nThe requirements are taken from real live cases, our admin group, reluctantly, performed this operation manually prior to this plugin, now they don\u0027t have to.",
+      "parentUuid": "4f3169d0_47f68e74",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f26f59c_86f7aa74",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
         "patchSetId": 4
