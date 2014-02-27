@@ -22,6 +22,30 @@
       "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f26f59c_66de2ef7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2014-02-27T11:53:27Z",
+      "side": 1,
+      "message": "I\u0027m not sure I understand you when you say \"the \"wrong\" ref.\". Which ref are we talking about here?\nIf you look at the Publish.updateDraftPatchSet(...) method, for example, it doesn\u0027t seem to update anything but the draft-flag in the db. Force-draft plugin does the reverse operation. Please enlighten me.\n\nprivate PatchSet updateDraftPatchSet(RevisionResource rsrc) throws OrmException {\n    return dbProvider.get().patchSets()\n        .atomicUpdate(rsrc.getPatchSet().getId(),\n        new AtomicUpdate\u003cPatchSet\u003e() {\n      @Override\n      public PatchSet update(PatchSet patchset) {\n        patchset.setDraft(false);\n        return patchset;\n      }\n    });\n  }",
+      "parentUuid": "4f3169d0_67d1d20d",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
