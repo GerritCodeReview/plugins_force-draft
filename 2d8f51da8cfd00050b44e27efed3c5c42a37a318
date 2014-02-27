@@ -121,6 +121,30 @@
     },
     {
       "key": {
+        "uuid": "2f26f59c_06ec9aa0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2014-02-27T15:35:14Z",
+      "side": 1,
+      "message": "Hmmm, I don\u0027t think you can find many medium to large companies that would approve of their developers having the right to delete code that has been pushed, I know we wouldn\u0027t.\nThere are a number of cases that could complicate things, like dependencies on the change from other changes etc.\nIt is a general rule that, if you\u0027re working for a company, you don\u0027t personally own the code you write, therefore it is not yours to delete.\nFurther more I don\u0027t think that having this capability is something that you, as an admin group, would like to broadcast to the entire organization in a \"come get it\" fashion.\nEven without this plugin our admin group was not spared from developers who wanted them to delete changes on the basis that they thought their initial code wasn\u0027t up to par and they did not want other developers to see. They were not successful in their demands.\n\nIf someone feels the need for functionality that enables developers to delete their code, they are free to implement this functionality (maybe in a plugin that displays a nice \"unpublish\" or \"delete\" button in the UI). Because this plugin is not for them.\n\nThis plugin is there to help admins performing a task that they already do manually. That was, and is, the sole purpose of it\u0027s existence.",
+      "parentUuid": "4f3169d0_c71a7efe",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f26f59c_86f7aa74",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
         "patchSetId": 4
