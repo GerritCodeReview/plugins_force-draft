@@ -46,6 +46,30 @@
       "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4f3169d0_47f68e74",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-02-27T13:26:38Z",
+      "side": 1,
+      "message": "I was wrong, refs/drafts magic branch is only used to mark a new pushed change as a draft:\n\n MagicBranchInput(ReceiveCommand cmd) {\n      this.cmd \u003d cmd;\n      this.draft \u003d cmd.getRefName().startsWith(MagicBranch.NEW_DRAFT_CHANGE);\n    }\n\nBut then, what you are actually doing here is: you are changing the very limited CREATE_DRAFT \u003d\u003e PUBLISH_TO_NEW_CHANGE workflow to: WORK_IN_PROGRESS workflow. Having the ability to toggle the change between READY (new change) and WIP (draft) status is exactly the definition of WIP.\n\nThe only difference between what you are doing here and the WIP approach, that already solved in these two changes [1] and [2] is the visibility issue and ability to delete refs.\n\n* [1] https://gerrit-review.googlesource.com/54088 \n* [2] https://gerrit-review.googlesource.com/50254",
+      "parentUuid": "2f26f59c_66de2ef7",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
