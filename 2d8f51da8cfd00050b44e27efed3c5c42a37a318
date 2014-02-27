@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "4f3169d0_c71a7efe",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-02-27T14:21:28Z",
+      "side": 1,
+      "message": "i disagree.\n\nSo what you are proposing here is to to add another plugin for another admin group, that discover that this plugin is there and don\u0027t want to be spammed from hundreds of Gerrit users to turn their normal change to draft, and want change owner to do it on their own.\n\nIt doesn\u0027t simple make any sense to me to restrict something that user can do anyway, but haven\u0027t done.\n\nSo without this plugin the use can only do:\n\n git push review HEAD:refs/drafts/master\n\nWith this plugin with administrator right requirement the user can do:\n\n git push review HEAD:refs/heads/master\n \u003copen chat windows\u003e\n PING gerrit admins group\n Hey guys, i messed up with pushing to the wrong magic branch, could you turn it to draft, please …\n You turn it to be draft.\n\nAll what i say is: take [optionally] this chat/ping stuff out of the picture and enable the change owner to do that.",
+      "parentUuid": "2f26f59c_a6fca657",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f26f59c_86f7aa74",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
         "patchSetId": 4
