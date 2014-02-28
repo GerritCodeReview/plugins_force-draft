@@ -193,6 +193,24 @@
     },
     {
       "key": {
+        "uuid": "2f26f59c_06157acc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1010015
+      },
+      "writtenOn": "2014-02-28T08:25:42Z",
+      "side": 1,
+      "message": "is it better to let【1】 display in commit message to make it easy to understand?\n\n【1】 “The requirement for this plugin comes from actual cases where developers have uploaded something that must be removed. Examples include: 1) user has uploaded huge files that we don\u0027t want in the git repository, even if only on the refs/changes namespace, and 2) user has uploaded proprietary or secret code that for legal reasons must not be stored on our Gerrit server.”",
+      "parentUuid": "2f26f59c_c61a82fe",
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cf439932_8b088df7",
         "filename": "pom.xml",
         "patchSetId": 4
