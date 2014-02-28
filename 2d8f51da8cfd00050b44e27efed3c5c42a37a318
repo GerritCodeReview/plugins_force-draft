@@ -169,6 +169,30 @@
     },
     {
       "key": {
+        "uuid": "2f26f59c_c61a82fe",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-02-28T07:01:04Z",
+      "side": 1,
+      "message": "Thank you both for clarification.",
+      "parentUuid": "8f37e1c2_498221eb",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f26f59c_86f7aa74",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
         "patchSetId": 4
