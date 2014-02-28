@@ -145,6 +145,30 @@
     },
     {
       "key": {
+        "uuid": "8f37e1c2_498221eb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-02-28T01:34:00Z",
+      "side": 1,
+      "message": "A few points\n\n- The WIP workflow will be in 2.9.  We are running 2.8.x and not sure when/if we will be able to upgrade to 2.9. This was originally implemented against the 2.6 API.\n\n- As Sven has said, we cannot simply allow users to delete changes.\n\n- The requirement for this plugin comes from actual cases where developers have uploaded something that must be removed.  Examples include: 1) user has uploaded huge files that we don\u0027t want in the git repository, even if only on the refs/changes namespace, and 2) user has uploaded proprietary or secret code that for legal reasons must not be stored on our Gerrit server.\n\nThe main reason it\u0027s implemented as a plugin is because it\u0027s a feature that not everyone will want in core Gerrit.  So since it\u0027s a plugin, if you don\u0027t like it, you just don\u0027t install it :)",
+      "parentUuid": "2f26f59c_06ec9aa0",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f26f59c_86f7aa74",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
         "patchSetId": 4
