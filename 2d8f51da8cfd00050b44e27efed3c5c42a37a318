@@ -272,6 +272,30 @@
       "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7cd50dff_e071c2b0",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2014-03-12T10:07:13Z",
+      "side": 1,
+      "message": "Sorry for the late reply.\nAs per previous discussion, allowing the change owner to toggle draft-state is not something we would ever do. Future development, creating a plugin owned capability, would enable this behavior for those who wish to do so.",
+      "parentUuid": "2f26f59c_86f7aa74",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 95
+      },
+      "revId": "2d8f51da8cfd00050b44e27efed3c5c42a37a318",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
