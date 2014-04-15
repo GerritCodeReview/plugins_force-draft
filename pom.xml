@@ -40,7 +40,8 @@ limitations under the License.
         <configuration>
           <archive>
             <manifestEntries>
-              <Implementation-Title>Plugin ${project.artifactId}</Implementation-Title>
+              <Gerrit-PluginName>${project.name}</Gerrit-PluginName>
+              <Implementation-Title>Plugin ${project.name}</Implementation-Title>
               <Implementation-Version>${project.version}</Implementation-Version>
               <Implementation-Vendor>Gerrit Code Review</Implementation-Vendor>
               <Implementation-Vendor-URL>http://code.google.com/p/gerrit/</Implementation-Vendor-URL>
