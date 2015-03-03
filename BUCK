@@ -5,5 +5,12 @@ gerrit_plugin(
   manifest_entries = [
     'Gerrit-PluginName: force-draft',
     'Gerrit-SshModule: com.googlesource.gerrit.plugins.forcedraft.ForceDraftSshModule',
+    'Implementation-Title: Force draft plugin',
+    'Implementation-URL: https://gerrit-review.googlesource.com/#/admin/projects/plugins/force-draft',
   ]
+)
+
+java_library(
+  name = 'classpath',
+  deps = [':force-draft__plugin'],
 )
