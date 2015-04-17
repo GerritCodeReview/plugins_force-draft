@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "505f6e27_0ab4bb31",
+        "filename": "src/main/resources/Documentation/about.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006454
+      },
+      "writtenOn": "2015-04-17T12:36:55Z",
+      "side": 1,
+      "message": "s/supplies/provides",
+      "revId": "a70654e06e1f4121957db639ab289eeb514d2702",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "505f6e27_eab84728",
+        "filename": "src/main/resources/Documentation/about.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006454
+      },
+      "writtenOn": "2015-04-17T12:36:55Z",
+      "side": 1,
+      "message": "it also changes the change to a draft change.",
+      "revId": "a70654e06e1f4121957db639ab289eeb514d2702",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "70471268_4363c63f",
+        "filename": "src/main/resources/Documentation/cmd-force-draft.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006454
+      },
+      "writtenOn": "2015-04-17T12:36:55Z",
+      "side": 1,
+      "message": "\u003cChange, Patchset\u003e?",
+      "revId": "a70654e06e1f4121957db639ab289eeb514d2702",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "505f6e27_aac24fa0",
+        "filename": "src/main/resources/Documentation/cmd-force-draft.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006454
+      },
+      "writtenOn": "2015-04-17T12:36:55Z",
+      "side": 1,
+      "message": "Unnecessary lf",
+      "revId": "a70654e06e1f4121957db639ab289eeb514d2702",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
