@@ -55,7 +55,8 @@ public class ForceDraft extends SshCommand {
   @Inject
   private @GerritServerConfig Config config;
 
-  @Argument(index = 0, required = true, usage = "<change, patch set> to be changed to draft")
+  @Argument(index = 0, required = true, metaVar = "{CHANGE,PATCHSET}",
+      usage = "<change, patch set> to be changed to draft")
   private void addPatchSetId(final String token) {
     try {
       patchSet = parsePatchSet(token);
