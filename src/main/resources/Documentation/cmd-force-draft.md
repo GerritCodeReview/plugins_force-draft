@@ -1,14 +1,14 @@
-@PLUGIN@ force-draft
+@PLUGIN@
 ==============
 
 NAME
 ----
-force-draft force-draft - Force patchset to draft.
+@PLUGIN@ - Force patchset to draft.
 
 SYNOPSIS
 --------
 ```
-ssh -p @SSH_PORT@ @SSH_HOST@ force-draft force-draft <Change, Patchset>
+ssh -p @SSH_PORT@ @SSH_HOST@ @PLUGIN@ <Change, Patchset>
 ```
 
 DESCRIPTION
@@ -29,5 +29,5 @@ EXAMPLES
 --------
 Change status of patchset 3 of change 1234 to 'draft':
 ```
-ssh -p @SSH_PORT@ @SSH_HOST@ force-draft force-draft 1234,3
+ssh -p @SSH_PORT@ @SSH_HOST@ @PLUGIN@ 1234,3
 ```

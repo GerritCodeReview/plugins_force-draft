@@ -31,7 +31,7 @@ import com.google.inject.Inject;
 import com.google.inject.Provider;
 
 @RequiresCapability(value = GlobalCapability.ADMINISTRATE_SERVER, scope = CapabilityScope.CORE)
-@CommandMetaData(name = "force-draft", description = "changes patch set to draft")
+@CommandMetaData(name = "force-draft2", description = "changes patch set to draft")
 public class ForceDraft extends SshCommand {
 
   private static final String CHANGE_SECTION = "change";
