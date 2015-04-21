@@ -13,12 +13,15 @@
 // limitations under the License.
 package com.googlesource.gerrit.plugins.forcedraft;
 
-import com.google.gerrit.sshd.PluginCommandModule;
+import com.google.gerrit.sshd.SingleCommandPluginModule;
+import com.google.inject.binder.LinkedBindingBuilder;
 
-public class ForceDraftSshModule extends PluginCommandModule {
+import org.apache.sshd.server.Command;
+
+public class ForceDraftSshModule extends SingleCommandPluginModule {
 
   @Override
-  protected void configureCommands() {
-    command(ForceDraft.class);
+  protected void configure(LinkedBindingBuilder<Command> bind) {
+    bind.to(ForceDraft.class);
   }
 }
