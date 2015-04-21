@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "90e9e6d1_7c1ab9a5",
+        "filename": "src/main/resources/Documentation/cmd-force-draft.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2015-04-21T12:06:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50b5aed8_bac9b1a9",
+      "range": {
+        "startLine": 1,
+        "startChar": 9,
+        "endLine": 1,
+        "endChar": 14
+      },
+      "revId": "8b82029d425b1cab1ee35935fdef30325a8e8994",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "50b5aed8_dad66544",
         "filename": "src/main/resources/Documentation/cmd-force-draft.md",
         "patchSetId": 4
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "30b83ad4_79df2755",
+        "filename": "src/main/resources/Documentation/cmd-force-draft.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2015-04-21T12:06:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50b5aed8_dad66544",
+      "range": {
+        "startLine": 17,
+        "startChar": 29,
+        "endLine": 17,
+        "endChar": 31
+      },
+      "revId": "8b82029d425b1cab1ee35935fdef30325a8e8994",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "70e472f7_5bda6366",
         "filename": "src/main/resources/Documentation/cmd-force-draft.md",
         "patchSetId": 4
@@ -59,6 +107,30 @@
       "writtenOn": "2015-04-21T06:06:21Z",
       "side": 1,
       "message": "This sentence feels out of place in between the other 2 paragraphs.  It would be better to add this on the end of the sentence started at line 16.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 65
+      },
+      "revId": "8b82029d425b1cab1ee35935fdef30325a8e8994",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90e9e6d1_9cfea5aa",
+        "filename": "src/main/resources/Documentation/cmd-force-draft.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2015-04-21T12:06:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70e472f7_5bda6366",
       "range": {
         "startLine": 19,
         "startChar": 0,
