@@ -1,3 +1,5 @@
+include_defs('//bucklets/gerrit_plugin.bucklet')
+
 gerrit_plugin(
   name = 'force-draft',
   srcs = glob(['src/main/java/**/*.java']),
@@ -12,5 +14,5 @@ gerrit_plugin(
 
 java_library(
   name = 'classpath',
-  deps = [':force-draft__plugin'],
+  deps = GERRIT_PLUGIN_API + [':force-draft__plugin'],
 )
