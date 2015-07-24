@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cdcf4a9d_55c40c84",
+        "filename": ".gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2015-07-24T08:04:03Z",
+      "side": 1,
+      "message": "You should also add .buckd to the ignore list, which is created when running the standalone buck build.",
+      "revId": "04c0438e81cb8032abd0774c857fc1b7bb63bf09",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
