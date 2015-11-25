@@ -1,3 +1,0 @@
-# Maven style API version (e.g. '2.x-SNAPSHOT').
-#
-PLUGIN_VERSION = '2.12-SNAPSHOT'
