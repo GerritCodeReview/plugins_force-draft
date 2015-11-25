@@ -184,7 +184,7 @@ public class ForceDraft extends SshCommand {
   /**
    * Updates parentChange to draft if every Patch set in Change is Draft.
    *
-   * @return
+   * @return the updated change
    * @throws OrmException
    */
   private Change updateChange() throws OrmException {
