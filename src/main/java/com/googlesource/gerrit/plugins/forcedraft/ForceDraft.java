@@ -13,9 +13,7 @@
 // limitations under the License.
 package com.googlesource.gerrit.plugins.forcedraft;
 
-import org.eclipse.jgit.lib.Config;
-import org.kohsuke.args4j.Argument;
-
+import com.google.gerrit.common.data.GlobalCapability;
 import com.google.gerrit.extensions.annotations.CapabilityScope;
 import com.google.gerrit.extensions.annotations.RequiresCapability;
 import com.google.gerrit.reviewdb.client.Change;
@@ -24,11 +22,13 @@ import com.google.gerrit.reviewdb.server.ReviewDb;
 import com.google.gerrit.server.config.GerritServerConfig;
 import com.google.gerrit.sshd.CommandMetaData;
 import com.google.gerrit.sshd.SshCommand;
-import com.google.gerrit.common.data.GlobalCapability;
 import com.google.gwtorm.server.AtomicUpdate;
 import com.google.gwtorm.server.OrmException;
 import com.google.inject.Inject;
 import com.google.inject.Provider;
+
+import org.eclipse.jgit.lib.Config;
+import org.kohsuke.args4j.Argument;
 
 @RequiresCapability(value = GlobalCapability.ADMINISTRATE_SERVER, scope = CapabilityScope.CORE)
 @CommandMetaData(name = "force-draft", description = "changes patch set to draft")
