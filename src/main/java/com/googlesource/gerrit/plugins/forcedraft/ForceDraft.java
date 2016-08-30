@@ -217,15 +217,12 @@ public class ForceDraft extends SshCommand {
    */
   private void updatePatchSet() throws OrmException {
     Change.Status changeStatus = parentChange.getStatus();
-    switch (changeStatus) {
-      case NEW:
-        setPatchSetAsDraft();
-        updateChange();
-        break;
-      default:
-        sendUserInfo("Unable to set patch set as draft, change is "
-            + getStatusName(changeStatus));
-        break;
+    if (changeStatus == Change.Status.NEW) {
+      setPatchSetAsDraft();
+      updateChange();
+    } else {
+      sendUserInfo("Unable to set patch set as draft, change is "
+          + getStatusName(changeStatus));
     }
   }
 
