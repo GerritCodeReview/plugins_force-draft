@@ -16,6 +16,23 @@
       "revId": "bd62f2fd5a2b17190a756b6a25a0320a7ec3ecc3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3142414d_cfcfdd1d",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1011624
+      },
+      "writtenOn": "2016-08-30T13:01:05Z",
+      "side": 1,
+      "message": "Can this ever happen as run already checks patchset.isDraft before getting here, so is there a case with change\u003dDraft and a non-draft patchset? And in that case would not setting the PS to draft make more sense?",
+      "revId": "bd62f2fd5a2b17190a756b6a25a0320a7ec3ecc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
