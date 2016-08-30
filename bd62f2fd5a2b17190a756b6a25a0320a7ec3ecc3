@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "513df5bb_f0a72059",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/forcedraft/ForceDraft.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1011624
+      },
+      "writtenOn": "2016-08-30T12:55:14Z",
+      "side": 1,
+      "message": "Does it make sense to list all cases here?\n\nOr would make more sense to change to it to\n\n if changeStatus\u003d\u003d NEW\n   else\n\n\nOtherwise adding new changes upstream would always require changes here as well.",
+      "revId": "bd62f2fd5a2b17190a756b6a25a0320a7ec3ecc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
