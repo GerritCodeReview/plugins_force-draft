@@ -222,6 +222,9 @@ public class ForceDraft extends SshCommand {
         setPatchSetAsDraft();
         updateChange();
         break;
+      case ABANDONED:
+      case DRAFT:
+      case MERGED:
       default:
         sendUserInfo("Unable to set patch set as draft, change is "
             + getStatusName(changeStatus));
