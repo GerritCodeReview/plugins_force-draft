@@ -5,3 +5,4 @@
 /.watchmanconfig
 /buck-out/
 /bucklets
+/eclipse-out
