@@ -22,6 +22,7 @@ import com.google.gerrit.reviewdb.client.Change;
 import com.google.gerrit.reviewdb.client.PatchSet;
 import com.google.gerrit.reviewdb.server.ReviewDb;
 import com.google.gerrit.server.config.GerritServerConfig;
+import com.google.gerrit.server.index.ChangeIndexer;
 import com.google.gerrit.sshd.CommandMetaData;
 import com.google.gerrit.sshd.SshCommand;
 import com.google.gerrit.common.data.GlobalCapability;
@@ -29,6 +30,8 @@ import com.google.gwtorm.server.AtomicUpdate;
 import com.google.gwtorm.server.OrmException;
 import com.google.inject.Inject;
 import com.google.inject.Provider;
+
+import java.io.IOException;
 
 @RequiresCapability(value = GlobalCapability.ADMINISTRATE_SERVER, scope = CapabilityScope.CORE)
 @CommandMetaData(name = "force-draft", description = "changes patch set to draft")
@@ -53,6 +56,9 @@ public class ForceDraft extends SshCommand {
 
   @Inject
   private @GerritServerConfig Config config;
+
+  @Inject
+  private ChangeIndexer changeIndexer;
 
   @Argument(index = 0, required = true, metaVar = "{CHANGE,PATCHSET}",
       usage = "<change, patch set> to be changed to draft")
@@ -208,19 +214,24 @@ public class ForceDraft extends SshCommand {
                 return change;
               }
             });
+
+    if(updatedChange.getStatus().equals(Change.Status.DRAFT)){
+
+    }
     return updatedChange;
   }
   /**
    * Updates PatchSet and, if applicable, parent Change.
    *
-   * @throws OrmException
+   * @throws OrmException if an error occur while updating the change in the DB.
+   * @throws IOException if an error occur while indexing the change.
    */
-  private void updatePatchSet() throws OrmException {
+  private void updatePatchSet() throws OrmException, IOException {
     Change.Status changeStatus = parentChange.getStatus();
     switch (changeStatus) {
       case NEW:
         setPatchSetAsDraft();
-        updateChange();
+        changeIndexer.index(dbProvider.get(), updateChange());
         break;
       default:
         sendUserInfo("Unable to set patch set as draft, change is "
