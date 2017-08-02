@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a36c8f70_7be85752",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-08-02T19:28:13Z",
+      "side": 1,
+      "message": "Doesn\u0027t apply on this plugin and could be removed?",
+      "range": {
+        "startLine": 9,
+        "startChar": 96,
+        "endLine": 9,
+        "endChar": 232
+      },
+      "revId": "b9b9c99f1b99da752e49129ff31f88ae104097d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb650e08_845c0c34",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-08-02T19:28:13Z",
+      "side": 1,
+      "message": "bazel-genfiles/@PLUGIN@.jar",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 29
+      },
+      "revId": "b9b9c99f1b99da752e49129ff31f88ae104097d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "440cf807_3e3e3d3c",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-08-02T19:28:13Z",
+      "side": 1,
+      "message": "lib@PLUGIN@__plugin-src.jar",
+      "range": {
+        "startLine": 28,
+        "startChar": 14,
+        "endLine": 28,
+        "endChar": 40
+      },
+      "revId": "b9b9c99f1b99da752e49129ff31f88ae104097d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be6124c7_de07bc00",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-08-02T19:28:13Z",
+      "side": 1,
+      "message": "lib@PLUGIN@__plugin-src.jar",
+      "range": {
+        "startLine": 34,
+        "startChar": 12,
+        "endLine": 34,
+        "endChar": 38
+      },
+      "revId": "b9b9c99f1b99da752e49129ff31f88ae104097d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
