@@ -1,3 +1,5 @@
 /.classpath
+/.primary_build_tool
 /.project
+/bazel-*
 /eclipse-out
