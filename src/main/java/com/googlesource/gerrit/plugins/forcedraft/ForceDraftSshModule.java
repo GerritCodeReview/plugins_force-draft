@@ -15,7 +15,6 @@ package com.googlesource.gerrit.plugins.forcedraft;
 
 import com.google.gerrit.sshd.SingleCommandPluginModule;
 import com.google.inject.binder.LinkedBindingBuilder;
-
 import org.apache.sshd.server.Command;
 
 public class ForceDraftSshModule extends SingleCommandPluginModule {
